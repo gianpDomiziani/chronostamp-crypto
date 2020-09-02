@@ -1,0 +1,26 @@
+{
+  "name": "chronostamp-crypto",
+  "version": "1.0.0",
+  "description": "crypto client service",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && node build/index.js",
+    "compile": "rimraf build && tsc",
+    "watch-and-run": "ts-node-dev --respawn -- src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.24",
+    "@types/readline-sync": "^1.4.3",
+    "hasha": "^5.2.0",
+    "mngen": "^1.1.0",
+    "node": "^14.5.0",
+    "readline-sync": "^1.4.10",
+    "rxjs": "^6.6.0",
+    "symbol-sdk": "^0.20.6",
+    "ts-node-dev": "^1.0.0-pre.52",
+    "typescript": "^3.9.7"
+  }
+}
